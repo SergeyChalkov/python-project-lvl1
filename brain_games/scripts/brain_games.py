@@ -1,3 +1,6 @@
+ #!/usr/bin/env python
+
+ 
 def print_title():
     print("Welcome to the Brain Games!")
 
