@@ -19,3 +19,4 @@ lint:
 push-dev:
 	git merge dev
 	git push origin
+	git switch dev
