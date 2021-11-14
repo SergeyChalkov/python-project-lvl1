@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        # we want to test our package on several versions of Python
         python-version: [3.8, 3.9]
+
     steps:
       - uses: actions/checkout@v2
 
@@ -18,36 +18,15 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Load cached poetry
-        id: poetry-installed
-        uses: actions/cache@v2
-        with:
-          path: ~/.local
-          key: dotlocal-${{ runner.os }}-${{ hashFiles('.github/workflows/flake8_check.yml') }}
-      
       - name: Install poetry
         run: |
           pip install poetry
-          poetry --version
           poetry config virtualenvs.in-project true
-          poetry config --list
-        if: steps.poetry-installed.outputs.cache-hit != 'true'
-
-#      - name: Load cached venv
-#        id: poetry-depencies
-#        uses: actions/cache@v2
-#        with: 
-#          path: .venv
-#          key: venv-${{ runner.os }}-${{ hashFiles('poetry.lock') }}-${{ hashFiles('.github/workflows/flake8_check.yml') }}       
       
       - name: Install dependencies
         run: |          
           make install
-#        if: steps.poetry-dependencies.outputs.cache-hit != 'true'
       
       - name: Run linter
         run:
             make lint
-
-
-
