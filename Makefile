@@ -20,3 +20,9 @@ push-dev:
 	git merge dev
 	git push origin
 	git switch dev
+
+format:
+	poetry run black -l 79 brain_games
+
+black-diff:
+	poetry run black -l 79 --diff brain_games
