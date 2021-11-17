@@ -8,4 +8,4 @@
 [![flake8-check](https://github.com/SergeyChalkov/python-project-lvl1/actions/workflows/flake8_check.yml/badge.svg?event=push)](https://github.com/SergeyChalkov/python-project-lvl1/actions/workflows/flake8_check.yml)
 
 ### Asciinema - brain-even:
-[![asciicast](https://asciinema.org/a/449730.svg)](https://asciinema.org/a/449730)
+<a href="https://asciinema.org/a/449730" target="_blank"><img src="https://asciinema.org/a/449730.svg" width="100" /></a>
