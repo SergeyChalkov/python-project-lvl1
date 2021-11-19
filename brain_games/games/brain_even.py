@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-import brain_games.engine as engine
+from brain_games.engine import start_quiz_game
 from random import sample
 
 
@@ -13,13 +12,11 @@ def is_even(number):
 
 
 def main():
-    engine.set_questions_for_quiz(get_numbers_for_game())
-    engine.prepare_game_field()
-    print(how_to_play)
-    engine.play_game()
+    start_quiz_game(quiz_rules, quiz_questions)
 
 
-how_to_play = "Answer 'yes' if the number is even, otherwise answer 'no'."
+quiz_rules = "Answer 'yes' if the number is even, otherwise answer 'no'."
+quiz_questions = get_numbers_for_game()
 
 if __name__ == '__main__':
     main()

@@ -5,7 +5,16 @@ _quiz_dict = {}
 _user_name = 'Player'
 
 
-def set_questions_for_quiz(questions: tuple) -> None:
+def start_quiz_game(quiz_rules, quiz_questions):
+    _set_questions_for_quiz(quiz_questions)
+    print('Welcome to the Brain Games!')
+    _set_user_name()
+    print(f'Hello, {_user_name}!')
+    print(quiz_rules)
+    _play_game()
+
+
+def _set_questions_for_quiz(questions: tuple) -> None:
     """
     Set dictionary of questions for you quiz.
 
@@ -28,15 +37,7 @@ def _set_user_name():
     _user_name = welcome_user()
 
 
-def _print_hello_user():
-    print(f'Hello, {_user_name}!')
-
-
-def _print_welcome_title():
-    print('Welcome to the Brain Games!')
-
-
-def play_game():
+def _play_game():
     for question, answer in _quiz_dict.items():
         user_input = input(f'Question: {question}\nYour answer: ')
         if user_input == answer:
@@ -56,9 +57,3 @@ def _game_over(user_input, answer):
     print(f'{user_input!r} is wrong answer ;(. Correct answer was {answer!r}.')
     print(f'Let\'s try again, {_user_name}')
     quit()
-
-
-def prepare_game_field():
-    _print_welcome_title()
-    _set_user_name()
-    _print_hello_user()
