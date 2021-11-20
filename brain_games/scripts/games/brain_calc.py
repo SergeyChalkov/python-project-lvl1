@@ -1,4 +1,4 @@
-from brain_games.engine import start_quiz_game
+from brain_games.quiz_engine import start_quiz_game
 from random import choice, randint
 
 
