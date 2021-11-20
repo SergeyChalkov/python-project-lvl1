@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from brain_games.games.quiz_engine import start_quiz_game
-from brain_games.games.game_even import get_quiz_questions
+from brain_games.games.game_calc import get_quiz_questions
 
 
 def main():
