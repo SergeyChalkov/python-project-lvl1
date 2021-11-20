@@ -12,3 +12,6 @@
 
 ### Asciinema - brain-calc:
 <a href="https://asciinema.org/a/450329" target="_blank"><img src="https://asciinema.org/a/450329.svg" width="100" /></a>
+
+### Asciinema - brain-gcd:
+<a href="https://asciinema.org/a/450356" target="_blank"><img src="https://asciinema.org/a/450356.svg" width="100" /></a>
