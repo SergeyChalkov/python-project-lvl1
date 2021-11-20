@@ -14,20 +14,7 @@ def start_quiz_game(quiz_rules, quiz_questions):
     _play_game()
 
 
-def _set_questions_for_quiz(questions: tuple) -> None:
-    """
-    Set dictionary of questions for you quiz.
-
-    Parameters
-    ----------
-    questions : tuple((str, str))
-
-    Returns
-    -------
-    None, sets dictionary inside engine.
-    Dictionary contains question: answer pairs.
-
-    """
+def _set_questions_for_quiz(questions: tuple):
     global _quiz_dict
     _quiz_dict = {question: answer for question, answer in questions}
 
