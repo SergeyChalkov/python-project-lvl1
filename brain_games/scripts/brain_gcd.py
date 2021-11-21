@@ -8,7 +8,7 @@ def main():
 
 
 quiz_rules = "Find the greatest common divisor of given numbers."
-quiz_questions = get_quiz_questions('brain-gcd')
+quiz_questions = get_quiz_questions("brain-gcd")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

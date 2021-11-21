@@ -8,7 +8,7 @@ def main():
 
 
 quiz_rules = "Answer 'yes' if the number is even, otherwise answer 'no'."
-quiz_questions = get_quiz_questions('brain-even')
+quiz_questions = get_quiz_questions("brain-even")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

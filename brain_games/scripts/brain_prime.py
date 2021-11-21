@@ -8,7 +8,7 @@ def main():
 
 
 quiz_rules = "Answer 'yes' if given number is prime. Otherwise answer 'no'."
-quiz_questions = get_quiz_questions('brain-prime')
+quiz_questions = get_quiz_questions("brain-prime")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

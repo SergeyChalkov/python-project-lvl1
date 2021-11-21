@@ -2,14 +2,14 @@ from brain_games.cli import welcome_user
 
 
 _quiz_dict = {}
-_user_name = 'Player'
+_user_name = "Player"
 
 
 def start_quiz_game(quiz_rules, quiz_questions):
     _set_questions_for_quiz(quiz_questions)
-    print('Welcome to the Brain Games!')
+    print("Welcome to the Brain Games!")
     _set_user_name()
-    print(f'Hello, {_user_name}!')
+    print(f"Hello, {_user_name}!")
     print(quiz_rules)
     _play_game()
 
@@ -26,9 +26,9 @@ def _set_user_name():
 
 def _play_game():
     for question, answer in _quiz_dict.items():
-        user_input = input(f'Question: {question}\nYour answer: ')
+        user_input = input(f"Question: {question}\nYour answer: ")
         if user_input == answer:
-            print('Correct!')
+            print("Correct!")
         else:
             _game_over(user_input, answer)
     else:
@@ -36,11 +36,11 @@ def _play_game():
 
 
 def _end_game_player_wins():
-    print(f'Congratulations, {_user_name}!')
+    print(f"Congratulations, {_user_name}!")
     quit()
 
 
 def _game_over(user_input, answer):
-    print(f'{user_input!r} is wrong answer ;(. Correct answer was {answer!r}.')
-    print(f'Let\'s try again, {_user_name}')
+    print(f"{user_input!r} is wrong answer ;(. Correct answer was {answer!r}.")
+    print(f"Let's try again, {_user_name}")
     quit()

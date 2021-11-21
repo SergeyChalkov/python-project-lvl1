@@ -8,7 +8,7 @@ def main():
 
 
 quiz_rules = "What is the result of the expression?"
-quiz_questions = get_quiz_questions('brain-calc')
+quiz_questions = get_quiz_questions("brain-calc")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

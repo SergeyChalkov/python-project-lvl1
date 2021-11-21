@@ -8,7 +8,7 @@ def main():
 
 
 quiz_rules = "What number is missing in the progression?"
-quiz_questions = get_quiz_questions('brain-progression')
+quiz_questions = get_quiz_questions("brain-progression")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
