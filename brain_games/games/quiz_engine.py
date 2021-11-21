@@ -52,5 +52,5 @@ def _end_game_player_wins():
 
 def _game_over(user_input: str, answer: str):
     print(f"{user_input!r} is wrong answer ;(. Correct answer was {answer!r}.")
-    print(f"Let's try again, {_user_name}")
+    print(f"Let's try again, {_user_name}!")
     quit()
