@@ -34,7 +34,7 @@ def _get_number_for_even():
         return "yes" if number % 2 == 0 else "no"
 
     number = randint(1, 1000)
-    return number, _is_even(number)
+    return str(number), _is_even(number)
 
 
 def _get_sequence_for_progression():
@@ -71,6 +71,7 @@ def _get_number_for_primes():
     return str(number), is_prime(number)
 
 
+# Dictionary contains {game: function to call} pairs
 _games_dict = {
     "brain-even": _get_number_for_even,
     "brain-calc": _get_expression_for_calc,
@@ -80,6 +81,18 @@ _games_dict = {
 }
 
 
-def get_quiz_questions(game, number_of_rounds=3):
+def get_quiz_questions(game: str, number_of_rounds: int=3) -> tuple:
+    """Creates a tuple of tuples with (question, answer) pairs for a quiz
+    Args:
+        game (str): The name of the game. Use to call an associated function.
+            Games available: brain-even, brain-calc, brain-gcd, brain-progression,
+                brain-prime.
+        number_of_rounds (int): how many times the function will be called,
+            so the number of inner tuples == the number of game rounds
+                (default is 3)
+
+    Returns:
+        tuple: a tuple of tuples: ((str, str), ..., (str, str))
+    """
     questions = _games_dict[game]
     return tuple((questions() for _ in range(number_of_rounds)))
