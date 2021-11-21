@@ -57,14 +57,34 @@ def _get_sequence_for_progression():
     return question, answer
 
 
+def _get_number_for_primes():
+
+    def is_prime(number):
+        if number in (0, 1) or not number % 2:
+            return 'no'
+        if number in (2, 3, 5, 7):
+            return 'yes'
+        max_divisor = int(number ** 0.5)
+        divisors_list = [divisor for divisor in range(3, max_divisor + 1, 2)]
+        for divisor in divisors_list:
+            if not number % divisor:
+                return 'no'
+        else:
+            return 'yes'
+
+    number = randint(1, 1000)
+    return str(number), is_prime(number)
+
+
 _games_dict = {
     'brain-even': _get_number_for_even,
     'brain-calc': _get_expression_for_calc,
     'brain-gcd': _get_greatest_common_divisor,
-    'brain-progression': _get_sequence_for_progression
+    'brain-progression': _get_sequence_for_progression,
+    'brain-prime': _get_number_for_primes
 }
 
 
-def get_quiz_questions(game='brain-even', number_of_rounds=3):
+def get_quiz_questions(game, number_of_rounds=3):
     questions = _games_dict[game]
     return tuple((questions() for _ in range(number_of_rounds)))
