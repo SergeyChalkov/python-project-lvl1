@@ -7,11 +7,11 @@
 ### Linter check badge
 [![flake8-check](https://github.com/SergeyChalkov/python-project-lvl1/actions/workflows/flake8_check.yml/badge.svg?event=push)](https://github.com/SergeyChalkov/python-project-lvl1/actions/workflows/flake8_check.yml)
 
-### Asciinema - brain-even:
-<a href="https://asciinema.org/a/449730" target="_blank"><img src="https://asciinema.org/a/449730.svg" width="100" /></a>
+### Asciinema records:
+<a href="https://asciinema.org/a/449730"><b>asciinema - brain-even</b></a>
 
-### Asciinema - brain-calc:
-<a href="https://asciinema.org/a/450329" target="_blank"><img src="https://asciinema.org/a/450329.svg" width="100" /></a>
+<a href="https://asciinema.org/a/450329"><b>asciinema - brain-calc</b></a>
 
-### Asciinema - brain-gcd:
-<a href="https://asciinema.org/a/450356" target="_blank"><img src="https://asciinema.org/a/450356.svg" width="100" /></a>
+<a href="https://asciinema.org/a/450356"><b>asciinema - brain-gcd (greater common divisor)</b></a>
+
+<a href="https://asciinema.org/a/449730"><b>asciinema - brain-progression</b></a>
