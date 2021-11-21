@@ -81,12 +81,12 @@ _games_dict = {
 }
 
 
-def get_quiz_questions(game: str, number_of_rounds: int=3) -> tuple:
+def get_quiz_questions(game: str, number_of_rounds: int = 3) -> tuple:
     """Creates a tuple of tuples with (question, answer) pairs for a quiz
     Args:
         game (str): The name of the game. Use to call an associated function.
-            Games available: brain-even, brain-calc, brain-gcd, brain-progression,
-                brain-prime.
+            Games available: brain-even, brain-calc, brain-gcd,
+            brain-progression, brain-prime.
         number_of_rounds (int): how many times the function will be called,
             so the number of inner tuples == the number of game rounds
                 (default is 3)
