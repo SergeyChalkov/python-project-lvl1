@@ -45,8 +45,8 @@ def _get_sequence_for_progression():
     def get_progression():
         start, step = randint(1, 50), randint(2, 9)
         max_index_in_progression = randint(6, 11)
-        end_of_progression = start + step * max_index_in_progression + 1
-        progression = list(num for num in range(start, end_of_progression, step))
+        end_of_range = start + step * max_index_in_progression
+        progression = list(num for num in range(start, end_of_range + 1, step))
         return progression, max_index_in_progression
 
     progression, max_index_in_progression = get_progression()
