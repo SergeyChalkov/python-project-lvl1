@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from brain_games.games.quiz_engine import start_quiz_game
-from brain_games.games.game_gcd import get_quiz_questions
+from brain_games.games.quiz_logic import get_quiz_questions
 
 
 def main():
@@ -8,7 +8,7 @@ def main():
 
 
 quiz_rules = "Find the greatest common divisor of given numbers."
-quiz_questions = get_quiz_questions()
+quiz_questions = get_quiz_questions("brain-gcd")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
