@@ -1,3 +1,6 @@
+### данная ветка является тестовой, и не соответствует требованиям к проекту, логика для игр совмещена в одном файле, а не разбита на пять разных.
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SergeyChalkov/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SergeyChalkov/python-project-lvl1/actions)
 ### CodeClimate Maintainability
