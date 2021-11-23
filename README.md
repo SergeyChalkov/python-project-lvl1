@@ -15,14 +15,14 @@
 (также возможно, что в Вашей системе интерпретатор Питона вызывается командой *python*, в этом случае требуется использование команды **python3 -m pip install --user dist/\*.whl**)<br>
 **Все команды требуется запускать из родительской директории проекта, содержащей Makefile**<br><br>
 После успешной установки пакета Вы можете запускать головоломки следующими командами:
-- brain-games
-- brain-even
-- brain-calc
-- brain-gcd
-- brain-progression
-- brain-prime
+- brain-games -- *выводит на экран приветствие*
+- brain-even -- *задачи на (не)чётность чисел*
+- brain-calc -- *решение примеров на сложение, вычитание, умножение*
+- brain-gcd -- *вычисление наибольшего общего делителя лвух чисел*
+- brain-progression -- *поиск недостающего члена арифметической прогрессии*
+- brain-prime -- *является-ли число простым?* 
 
-### Asciinema records:
+### Демонстрация установки и запуска пакета, записи созданы с помощью <a href="https://asciinema.org/"><b>asciinema</a> :
 <a href="https://asciinema.org/a/449730"><b>asciinema - brain-even</b></a>
 
 <a href="https://asciinema.org/a/450329"><b>asciinema - brain-calc</b></a>
