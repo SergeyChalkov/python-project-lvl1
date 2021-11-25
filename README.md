@@ -1,8 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SergeyChalkov/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SergeyChalkov/python-project-lvl1/actions)
-### CodeClimate Maintainability
+### CodeClimate Maintainability:
 [![Maintainability](https://api.codeclimate.com/v1/badges/bf052ae5647e163be2a1/maintainability)](https://codeclimate.com/github/SergeyChalkov/python-project-lvl1/maintainability)
-### Linter check badge
+### Linter check badge:
 [![flake8-check](https://github.com/SergeyChalkov/python-project-lvl1/actions/workflows/flake8_check.yml/badge.svg?event=push)](https://github.com/SergeyChalkov/python-project-lvl1/actions/workflows/flake8_check.yml)
 
 Небольшой пакет, содержащий несколько простейших, запускающихся из командной строки, игр.
@@ -17,19 +17,17 @@
 
 После успешной установки пакета Вы можете запускать головоломки следующими командами:
 - brain-games - *выводит на экран приветствие*
-- brain-even - *задачи на (не)чётность чисел*
-- brain-calc - *решение примеров на сложение, вычитание, умножение*
-- brain-gcd - *вычисление наибольшего общего делителя лвух чисел*
-- brain-progression - *поиск недостающего члена арифметической прогрессии*
-- brain-prime - *является-ли число простым?* 
+- <a href="https://asciinema.org/a/449730"><b>brain-even</b></a> - *задачи на (не)чётность чисел*
+- <a href="https://asciinema.org/a/450329"><b>brain-calc</b></a> - *решение примеров на сложение, вычитание, умножение*
+- <a href="https://asciinema.org/a/450356"><b>brain-gcd (greater common divisor)</b></a> - *вычисление наибольшего общего делителя лвух чисел*
+- <a href="https://asciinema.org/a/450466"><b>brain-progression</b></a> - *поиск недостающего члена арифметической прогрессии*
+- <a href="https://asciinema.org/a/450526"><b>brain-prime</b></a> - *является-ли число простым?* 
 
 ### Демонстрация установки и запуска пакета, записи созданы с помощью <a href="https://asciinema.org/"><b>asciinema</a> :
-<a href="https://asciinema.org/a/449730"><b>asciinema - brain-even</b></a>
-
-<a href="https://asciinema.org/a/450329"><b>asciinema - brain-calc</b></a>
-
-<a href="https://asciinema.org/a/450356"><b>asciinema - brain-gcd (greater common divisor)</b></a>
-
-<a href="https://asciinema.org/a/449730"><b>asciinema - brain-progression</b></a>
-
-<a href="https://asciinema.org/a/450526"><b>asciinema - brain-prime</b></a>
+<figure>
+    <a href="https://asciinema.org/a/449730" target="_blank"><img src="https://asciinema.org/a/449730.svg" alt="brain-even" title="brain-even game" width="120"/></a>
+    <a href="https://asciinema.org/a/450329" target="_blank"><img src="https://asciinema.org/a/450329.svg" alt="brain-calc" title="brain-calc game" width="120" height="150"/></a>
+    <a href="https://asciinema.org/a/450356" target="_blank"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" title="brain-gcd game" width="120" /></a>
+    <a href="https://asciinema.org/a/450466" target="_blank"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" title="brain-progression game" width="120" /></a>
+    <a href="https://asciinema.org/a/450526" target="_blank"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" title="brain-prime game" width="120" /></a>
+</figure>
