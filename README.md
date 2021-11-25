@@ -3,9 +3,9 @@
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SergeyChalkov/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SergeyChalkov/python-project-lvl1/actions)
-### CodeClimate Maintainability
+### CodeClimate Maintainability:
 [![Maintainability](https://api.codeclimate.com/v1/badges/bf052ae5647e163be2a1/maintainability)](https://codeclimate.com/github/SergeyChalkov/python-project-lvl1/maintainability)
-### Linter check badge
+### Linter check badge:
 [![flake8-check](https://github.com/SergeyChalkov/python-project-lvl1/actions/workflows/flake8_check.yml/badge.svg?event=push)](https://github.com/SergeyChalkov/python-project-lvl1/actions/workflows/flake8_check.yml)
 
 Небольшой пакет, содержащий несколько простейших, запускающихся из командной строки, игр.
@@ -33,4 +33,4 @@
     <a href="https://asciinema.org/a/450356" target="_blank"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" width="120" /></a>
     <a href="https://asciinema.org/a/450466" target="_blank"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" width="120" /></a>
     <a href="https://asciinema.org/a/450526" target="_blank"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" width="120" /></a>
-</figure>>
+</figure>
