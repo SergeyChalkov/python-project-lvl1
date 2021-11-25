@@ -28,9 +28,10 @@
 
 ### Демонстрация установки и запуска пакета, записи созданы с помощью <a href="https://asciinema.org/"><b>asciinema</a> :
 <figure>
-    <a href="https://asciinema.org/a/449730" target="_blank"><img src="https://asciinema.org/a/449730.svg" alt="brain-even" width="120"/></a>
-    <a href="https://asciinema.org/a/450329" target="_blank"><img src="https://asciinema.org/a/450329.svg" alt="brain-calc" width="120" height="150"/></a>
-    <a href="https://asciinema.org/a/450356" target="_blank"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" width="120" /></a>
-    <a href="https://asciinema.org/a/450466" target="_blank"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" width="120" /></a>
-    <a href="https://asciinema.org/a/450526" target="_blank"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" width="120" /></a>
+    <a href="https://asciinema.org/a/449730" target="_blank"><img src="https://asciinema.org/a/449730.svg" alt="brain-even" title="brain-even game" width="120"/></a>
+    <a href="https://asciinema.org/a/450329" target="_blank"><img src="https://asciinema.org/a/450329.svg" alt="brain-calc" title="brain-calc game" width="120" height="150"/></a>
+    <a href="https://asciinema.org/a/450356" target="_blank"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" title="brain-gcd game" width="120" /></a>
+    <a href="https://asciinema.org/a/450466" target="_blank"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" title="brain-progression game" width="120" /></a>
+    <a href="https://asciinema.org/a/450526" target="_blank"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" title="brain-prime game" width="120" /></a>
 </figure>
+
