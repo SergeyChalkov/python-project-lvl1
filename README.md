@@ -33,6 +33,6 @@
 
 <a href="https://asciinema.org/a/450356"><b>asciinema - brain-gcd (greater common divisor)</b></a>
 
-<a href="https://asciinema.org/a/449730"><b>asciinema - brain-progression</b></a>
+<script id="asciicast-449730" src="https://asciinema.org/a/449730.js" async></script>
 
 <a href="https://asciinema.org/a/450526"><b>asciinema - brain-prime</b></a>
