@@ -29,4 +29,3 @@
 <a href="https://asciinema.org/a/450356"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" title="brain-gcd game" width="120" /></a>
 <a href="https://asciinema.org/a/450466"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" title="brain-progression game" width="120" /></a>
 <a href="https://asciinema.org/a/450526"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" title="brain-prime game" width="120" /></a>
-
