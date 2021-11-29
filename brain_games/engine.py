@@ -15,7 +15,9 @@ def start_game(game):
         if user_input == answer:
             print("Correct!")
         else:
-            print(f"{user_input!r} is wrong answer ;(. Correct answer was {answer!r}.")
+            print(
+                f"{user_input!r} is wrong answer ;(. Correct answer was {answer!r}."  # noqa: E501
+            )
             print(f"Let's try again, {player}!")
             break
     else:

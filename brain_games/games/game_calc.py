@@ -16,4 +16,4 @@ def get_question():
     number_one, number_two = random.randint(1, 100), random.randint(1, 100)
     operator = random.choice("-+*")
     answer = _calculate_result(number_one, operator, number_two)
-    return f'{number_one} {operator} {number_two}', str(answer)
+    return f"{number_one} {operator} {number_two}", str(answer)
