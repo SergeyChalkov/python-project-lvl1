@@ -15,6 +15,5 @@ def _calculate_result(number_one, operator, number_two):
 def get_question():
     number_one, number_two = random.randint(1, 100), random.randint(1, 100)
     operator = random.choice("-+*")
-    expression = number_one, operator, number_two
-    answer = _calculate_result(*expression)
-    return " ".join(str(element) for element in expression), str(answer)
+    answer = _calculate_result(number_one, operator, number_two)
+    return f'{number_one} {operator} {number_two}', str(answer)
