@@ -32,10 +32,17 @@
 <a href="https://asciinema.org/a/449730"><img src="https://asciinema.org/a/449730.svg" alt="brain-even" title="brain-even game" width="200"/></a>
 
 <a href="https://asciinema.org/a/450329"><b>brain-calc:</b></a>
+
 <a href="https://asciinema.org/a/452547"><img src="https://asciinema.org/a/452547.svg" alt="brain-calc" title="brain-calc game" width="200"/></a>
+
+<a href="https://asciinema.org/a/450356"><b>brain-gcd:</b></a>
 
 <a href="https://asciinema.org/a/450356"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" title="brain-gcd game" width="200" /></a>
 
+<a href="https://asciinema.org/a/450466"><b>brain-progression:</b></a>
+
 <a href="https://asciinema.org/a/450466"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" title="brain-progression game" width="200" /></a>
+
+<a href="https://asciinema.org/a/450526"><b>brain-prime:</b></a>
 
 <a href="https://asciinema.org/a/450526"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" title="brain-prime game" width="200" /></a>
