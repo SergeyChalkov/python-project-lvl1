@@ -26,17 +26,14 @@
 - <a href="https://asciinema.org/a/450466"><b>brain-progression</b></a> - *поиск недостающего члена арифметической прогрессии*
 - <a href="https://asciinema.org/a/450526"><b>brain-prime</b></a> - *является-ли число простым?* 
 
-### Демонстрация установки и запуска пакета, записи созданы с помощью <a href="https://asciinema.org/"><b>asciinema</a> :
-  
-[![asciicast](https://asciinema.org/a/449730.svg)](https://asciinema.org/a/449730)
-  
-[![asciicast](https://asciinema.org/a/450329.svg)](https://asciinema.org/a/450329)
-  
-[![asciicast](https://asciinema.org/a/450356.svg)](https://asciinema.org/a/450356)
-  
-[![asciicast](https://asciinema.org/a/450466.svg)](https://asciinema.org/a/450466)
+### Демонстрация установки и запуска пакета, записи созданы с помощью <a href="https://asciinema.org/"><b>asciinema</b></a> :
 
-[![asciicast](https://asciinema.org/a/450526.svg)](https://asciinema.org/a/450526)
+<a href="https://asciinema.org/a/449730"><img src="https://asciinema.org/a/449730.svg" alt="brain-even" title="brain-even game" width="200"/></a>
 
-  
-  
+<a href="https://asciinema.org/a/452547"><img src="https://asciinema.org/a/452547.svg" alt="brain-calc" title="brain-calc game" width="200"/></a>
+
+<a href="https://asciinema.org/a/450356"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" title="brain-gcd game" width="200" /></a>
+
+<a href="https://asciinema.org/a/450466"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" title="brain-progression game" width="200" /></a>
+
+<a href="https://asciinema.org/a/450526"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" title="brain-prime game" width="200" /></a>
