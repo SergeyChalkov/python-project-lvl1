@@ -19,20 +19,20 @@
 - brain-games - *выводит на экран приветствие*
 - <a href="https://asciinema.org/a/449730"><b>brain-even</b></a> - *задачи на (не)чётность чисел*
 - <a href="https://asciinema.org/a/450329"><b>brain-calc</b></a> - *решение примеров на сложение, вычитание, умножение*
-- <a href="https://asciinema.org/a/450356"><b>brain-gcd (greater common divisor)</b></a> - *вычисление наибольшего общего делителя лвух чисел*
+- <a href="https://asciinema.org/a/450356"><b>brain-gcd (greater common divisor)</b></a> - *вычисление наибольшего общего делителя двух чисел*
 - <a href="https://asciinema.org/a/450466"><b>brain-progression</b></a> - *поиск недостающего члена арифметической прогрессии*
 - <a href="https://asciinema.org/a/450526"><b>brain-prime</b></a> - *является-ли число простым?* 
 
 ### Демонстрация установки и запуска пакета, записи созданы с помощью <a href="https://asciinema.org/"><b>asciinema</b></a> :
 <figure>
-<figcaption><a href="https://asciinema.org/a/449730"><b>brain-even:</b></a></figcaption>
-<a href="https://asciinema.org/a/449730"><img src="https://asciinema.org/a/449730.svg" alt="brain-even" title="brain-even game" width="240"/></a>
-<figcaption><a href="https://asciinema.org/a/450329"><b>brain-calc:</b></a></figcaption>
-<a href="https://asciinema.org/a/450329"><img src="https://asciinema.org/a/450329.svg" alt="brain-calc" title="brain-calc game" width="240"/></a>
-<figcaption><a href="https://asciinema.org/a/450356"><b>brain-gcd:</b></a></figcaption>
-<a href="https://asciinema.org/a/450356"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" title="brain-gcd game" width="240" /></a>
-<figcaption><a href="https://asciinema.org/a/450466"><b>brain-progression:</b></a></figcaption>
-<a href="https://asciinema.org/a/450466"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" title="brain-progression game" width="240" /></a>
-<figcaption><a href="https://asciinema.org/a/450526"><b>brain-prime:</b></a></figcaption>
-<a href="https://asciinema.org/a/450526"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" title="brain-prime game" width="240" /></a>
+    <figcaption><a href="https://asciinema.org/a/449730"><b>brain-even:</b></a></figcaption>
+    <a href="https://asciinema.org/a/449730"><img src="https://asciinema.org/a/449730.svg" alt="brain-even" title="brain-even game" width="200"/></a>
+    <figcaption><a href="https://asciinema.org/a/452547"><b>brain-calc:</b></a></figcaption>
+    <a href="https://asciinema.org/a/452547"><img src="https://asciinema.org/a/452547.svg" alt="brain-calc" title="brain-calc game" width="200"/></a>
+    <figcaption><a href="https://asciinema.org/a/450356"><b>brain-gcd:</b></a></figcaption>
+    <a href="https://asciinema.org/a/450356"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" title="brain-gcd game" width="200" /></a>
+    <figcaption><a href="https://asciinema.org/a/450466"><b>brain-progression:</b></a></figcaption>
+    <a href="https://asciinema.org/a/450466"><img src="https://asciinema.org/a/450466.svg" alt="brain-progression" title="brain-progression game" width="200" /></a>
+    <figcaption><a href="https://asciinema.org/a/450526"><b>brain-prime:</b></a></figcaption>
+    <a href="https://asciinema.org/a/450526"><img src="https://asciinema.org/a/450526.svg" alt="brain-prime" title="brain-prime game" width="200" /></a>
 </figure>
