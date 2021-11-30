@@ -27,9 +27,11 @@
 - <a href="https://asciinema.org/a/450526"><b>brain-prime</b></a> - *является-ли число простым?* 
 
 ### Демонстрация установки и запуска пакета, записи созданы с помощью <a href="https://asciinema.org/"><b>asciinema</b></a> :
+<a href="https://asciinema.org/a/449730"><b>brain-even:</b></a>
 
 <a href="https://asciinema.org/a/449730"><img src="https://asciinema.org/a/449730.svg" alt="brain-even" title="brain-even game" width="200"/></a>
 
+<a href="https://asciinema.org/a/450329"><b>brain-calc:</b></a>
 <a href="https://asciinema.org/a/452547"><img src="https://asciinema.org/a/452547.svg" alt="brain-calc" title="brain-calc game" width="200"/></a>
 
 <a href="https://asciinema.org/a/450356"><img src="https://asciinema.org/a/450356.svg" alt="brain-gcd" title="brain-gcd game" width="200" /></a>
