@@ -10,7 +10,7 @@ def start_game(game):
     print(f"Hello, {player}!")
     print(game.GAME_RULES)
     for _ in range(NUMBER_OF_ROUNDS):
-        question, answer = game.get_question()
+        question, answer = game.generate_round()
         user_input = input(f"Question: {question}\nYour answer: ")
         if user_input == answer:
             print("Correct!")

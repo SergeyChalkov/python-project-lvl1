@@ -10,7 +10,7 @@ def _generate_progression(first, diff, length):
     return progression
 
 
-def get_question():
+def generate_round():
     first, diff = random.randint(1, 50), random.randint(2, 9)
     length = random.randint(6, 11)
     progression = _generate_progression(first, diff, length)

@@ -8,11 +8,11 @@ def _calculate_result(number_one, operator, number_two):
         return number_one - number_two
     elif operator == "+":
         return number_one + number_two
-    else:
+    elif operator == "*":
         return number_one * number_two
 
 
-def get_question():
+def generate_round():
     number_one, number_two = random.randint(1, 100), random.randint(1, 100)
     operator = random.choice("-+*")
     answer = _calculate_result(number_one, operator, number_two)
